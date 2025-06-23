@@ -3,7 +3,8 @@ Kot Selector interactive cat-(dating)swipe web app that lets users discover thei
 
 Essencially swipe right to like, left to hate the cat. In the end a summary of all the cats you like will appear.
 
-Features:
+# Features:
+
 Random cat images from Cataa
 
 Summary screen showing liked cats
