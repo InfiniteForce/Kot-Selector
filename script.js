@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const totalCats = 4;
+  const totalCats = 10;
   const swipeThreshold = 100;
   let likedCats = [];
 
