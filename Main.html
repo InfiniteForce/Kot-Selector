@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cat Swipe: Find Your Cat Date</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Cat Swipe: Find Your Cat Date</h1>
+  </header>
+  <main>
+    <div id="card-container"></div>
+    <div id="summary" class="hidden">
+      <h2>Summary</h2>
+      <p id="like-count"></p>
+      <div id="liked-cats"></div>
+      <button id="reset-btn">Reset</button>
+    </div>
+  </main>
+  
+  <!-- Zooming Modal for liked cat images -->
+  <div id="zoom-modal" class="hidden">
+    <span id="zoom-close">&times;</span>
+    <img id="zoom-img" class="modal-content" alt="Zoomed Cat Image" />
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
